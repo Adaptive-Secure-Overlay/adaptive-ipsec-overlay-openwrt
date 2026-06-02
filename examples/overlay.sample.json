@@ -1,0 +1,35 @@
+{
+  "users": {
+    "User1": {
+      "ip": "192.0.2.11",
+      "port": 9000,
+      "password": "change-me-user1"
+    },
+    "User2": {
+      "ip": "192.0.2.12",
+      "port": 9000,
+      "password": "change-me-user2"
+    },
+    "User12": {
+      "ip": "192.0.2.112",
+      "port": 9000,
+      "password": "change-me-user12"
+    }
+  },
+  "active_users": [
+    "User1",
+    "User2",
+    "User12"
+  ],
+  "udp_timeout_s": 2.0,
+  "retries": 3,
+  "preconnect_enabled": true,
+  "ike_capture_500_base": 15100,
+  "ike_capture_4500_base": 15200,
+  "ike_socket_mark": "0x53",
+  "ike_privacy_overlay": true,
+  "ike_privacy_inline": true,
+  "ike_route_timeout_s": 10.0,
+  "ike_inline_route_timeout_s": 5.0,
+  "ike_route_cooldown_s": 30.0
+}

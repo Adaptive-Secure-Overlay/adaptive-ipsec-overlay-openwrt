@@ -1,0 +1,41 @@
+{
+  "users": {
+    "User1": { "ip": "192.168.101.10", "port": 9000, "password": "change-me-user1" },
+    "User2": { "ip": "192.168.102.10", "port": 9000, "password": "change-me-user2" },
+    "User3": { "ip": "192.168.103.10", "port": 9000, "password": "change-me-user3" },
+    "User4": { "ip": "192.168.104.10", "port": 9000, "password": "change-me-user4" },
+    "User5": { "ip": "192.168.105.10", "port": 9000, "password": "change-me-user5" },
+    "User6": { "ip": "192.168.106.10", "port": 9000, "password": "change-me-user6" },
+    "User7": { "ip": "192.168.107.10", "port": 9000, "password": "change-me-user7" },
+    "User8": { "ip": "192.168.108.10", "port": 9000, "password": "change-me-user8" },
+    "User9": { "ip": "192.168.109.10", "port": 9000, "password": "change-me-user9" },
+    "User10": { "ip": "192.168.110.10", "port": 9000, "password": "change-me-user10" },
+    "User11": { "ip": "10.255.11.2", "port": 9000, "password": "change-me-user11" },
+    "User12": { "ip": "10.255.12.2", "port": 9000, "password": "change-me-user12" }
+  },
+  "active_users": [
+    "User1",
+    "User2",
+    "User3",
+    "User4",
+    "User5",
+    "User6",
+    "User7",
+    "User8",
+    "User9",
+    "User10",
+    "User11",
+    "User12"
+  ],
+  "udp_timeout_s": 2.0,
+  "retries": 3,
+  "preconnect_enabled": true,
+  "ike_capture_500_base": 15100,
+  "ike_capture_4500_base": 15200,
+  "ike_socket_mark": "0x53",
+  "ike_privacy_overlay": true,
+  "ike_privacy_inline": true,
+  "ike_route_timeout_s": 10.0,
+  "ike_inline_route_timeout_s": 5.0,
+  "ike_route_cooldown_s": 30.0
+}
