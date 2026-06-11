@@ -5,6 +5,12 @@
 OpenWRT endpoint and intermediate-node profile for the Adaptive IPsec Overlay
 research prototype.
 
+Related repositories:
+
+- [Project hub](https://github.com/ZuyVladislav/adaptive-ipsec-overlay)
+- [Linux package](https://github.com/ZuyVladislav/adaptive-ipsec-overlay-linux)
+- [RouterOS 7 package](https://github.com/ZuyVladislav/adaptive-ipsec-overlay-routeros7)
+
 This repository contains the OpenWRT deployment package:
 
 - Python overlay daemon.
@@ -50,3 +56,8 @@ install.sh  OpenWRT installer
 
 Research prototype. Tested in an EVE-NG lab with OpenWRT as a full overlay
 participant.
+
+## Notes
+
+This package is the OpenWRT-deliverable repository. It keeps the compact
+installer and service layout needed for router deployment.
