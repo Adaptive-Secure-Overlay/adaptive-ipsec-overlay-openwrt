@@ -7,9 +7,9 @@ research prototype.
 
 Related repositories:
 
-- [Project hub](https://github.com/ZuyVladislav/adaptive-ipsec-overlay)
-- [Linux package](https://github.com/ZuyVladislav/adaptive-ipsec-overlay-linux)
-- [RouterOS 7 package](https://github.com/ZuyVladislav/adaptive-ipsec-overlay-routeros7)
+- [Project hub](https://github.com/Adaptive-Secure-Overlay/adaptive-ipsec-overlay)
+- [Linux package](https://github.com/Adaptive-Secure-Overlay/adaptive-ipsec-overlay-linux)
+- [RouterOS 7 package](https://github.com/Adaptive-Secure-Overlay/adaptive-ipsec-overlay-routeros7)
 
 This repository contains the OpenWRT deployment package:
 
